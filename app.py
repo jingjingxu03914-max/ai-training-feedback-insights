@@ -52,7 +52,7 @@ with left:
     st.subheader("Confidence before and after training")
     confidence = filtered.set_index("session_id")[["confidence_before_avg", "confidence_after_avg"]]
     confidence.columns = ["Before", "After"]
-    st.bar_chart(confidence, y_label="Average confidence (1–5)")
+    st.bar_chart(confidence, y_label="Average confidence (1–5)", stack=False)
 with right:
     st.subheader("Adoption by training session")
     adoption = filtered.set_index("session_id")[["adoption_14d_pct"]]
