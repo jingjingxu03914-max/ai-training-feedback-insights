@@ -6,7 +6,7 @@ import streamlit as st
 from openai import OpenAI
 
 APP_DIR = Path(__file__).parent
-DATA_PATH = APP_DIR / "data" / "synthetic_training_feedback.csv"
+DATA_PATH = APP_DIR / "synthetic_training_feedback.csv"
 
 st.set_page_config(page_title="Training Feedback Insights", page_icon="📊", layout="wide")
 st.title("AI-Assisted Training Feedback Insights")
