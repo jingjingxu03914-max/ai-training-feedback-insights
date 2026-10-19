@@ -15,6 +15,18 @@ An independent portfolio project that combines a small training-adoption dashboa
 
 `data/synthetic_training_feedback.csv` contains 12 fictional training sessions across Scotland, Wales and Northern Ireland. Every practice-like label, metric and feedback comment is invented for demonstration. Confidence uses a 1–5 scale. Adoption is a fictional percentage measured 14 days after a session.
 
+## Demo results
+
+The dashboard calculates the following results from 12 fictional training sessions and 353 fictional learners:
+
+- Weighted completion rate: 90.2%
+- Average confidence change after training: +1.2 points on a 1–5 scale
+- Weighted feature adoption 14 days after training: 68.5%
+
+Recurring themes in the fictional feedback include requests for short reference guides, more time for questions and practice, and follow-up reminders.
+
+These figures and comments are fully synthetic and are shown only to demonstrate the dashboard. They do not represent real NHS users, product adoption or training impact.
+
 ## Run locally
 
 1. Install Python 3.10 or newer.
@@ -63,13 +75,3 @@ Do not paste an API key into `app.py`, `.env.example`, screenshots, or a public 
 - The project does not establish causation between training and later feature use.
 - AI-generated observations can be incomplete or wrong and require human review.
 - API use may incur charges under the account's current pricing and settings.
-
-## Suggested CV link label
-
-**AI-Assisted Training Feedback Insights (GitHub)**
-
-Suggested CV line, after the existing generative-AI skills item or as a hyperlink on that item:
-
-> **Independent AI project:** Built a privacy-safe dashboard using synthetic training data and an LLM prompt workflow to summarise adoption signals and suggest follow-up improvements.
-
-Only use this line after you have run the project and reviewed what it does.
