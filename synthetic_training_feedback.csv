@@ -1,0 +1,13 @@
+session_id,region,product,session_date,attendees,completion_rate_pct,confidence_before_avg,confidence_after_avg,adoption_14d_pct,synthetic_feedback
+S001,Scotland,Scribe,2026-04-08,28,89,2.8,4.1,64,"The live walkthrough helped, but I would like a short reference guide afterward."
+S002,Wales,Questionnaires,2026-04-15,34,91,3.0,4.2,71,"The examples were useful; more time for questions would help our team."
+S003,Northern Ireland,Scribe,2026-04-22,22,86,2.7,3.9,59,"I understood the basics but would benefit from a follow-up practice session."
+S004,Scotland,Self-Book,2026-05-01,40,94,3.2,4.5,78,"The booking demonstration was clear and easy to follow."
+S005,Wales,Scribe,2026-05-07,31,90,2.9,4.1,66,"A slower walkthrough of the first setup steps would be helpful."
+S006,Northern Ireland,Questionnaires,2026-05-14,18,83,2.6,3.8,55,"The session was helpful; a reminder with the key steps would support confidence."
+S007,Scotland,Accumail,2026-05-21,36,92,3.1,4.3,73,"It would help to see how the feature fits into a typical working day."
+S008,Wales,Self-Book,2026-05-28,25,88,2.8,4.0,62,"The demonstration was clear, and a short checklist would be useful."
+S009,Northern Ireland,Scribe,2026-06-04,30,90,3.0,4.2,68,"I would like a chance to try the steps in a practice environment."
+S010,Scotland,Questionnaires,2026-06-11,42,95,3.3,4.6,81,"The examples made the workflow feel straightforward."
+S011,Wales,Accumail,2026-06-18,20,85,2.7,3.9,57,"More time for questions would help colleagues with different starting points."
+S012,Northern Ireland,Self-Book,2026-06-25,27,89,2.9,4.1,65,"A follow-up note with where to find help would be useful."
