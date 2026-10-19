@@ -17,15 +17,14 @@ An independent portfolio project that combines a small training-adoption dashboa
 
 ## Demo results
 
-The dashboard calculates the following results from 12 fictional training sessions and 353 fictional learners:
+The dashboard summarises 12 fictional training sessions and 353 fictional learners.
 
-- Weighted completion rate: 90.2%
-- Average confidence change after training: +1.2 points on a 1–5 scale
-- Weighted feature adoption 14 days after training: 68.5%
+- Average confidence change: +1.2 points on a 1–5 scale
+- Weighted 14-day feature adoption: 68.5%
 
-Recurring themes in the fictional feedback include requests for short reference guides, more time for questions and practice, and follow-up reminders.
+These results are calculated from fully synthetic data and do not represent real NHS users or product impact.
 
-These figures and comments are fully synthetic and are shown only to demonstrate the dashboard. They do not represent real NHS users, product adoption or training impact.
+![Dashboard preview](dashboard-preview.png)
 
 ## Run locally
 
